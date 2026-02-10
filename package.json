@@ -1,0 +1,27 @@
+{
+  "name": "user-auth-dashboard",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "./scripts/rn.sh start",
+    "android": "./scripts/rn.sh run-android",
+    "ios": "./scripts/rn.sh run-ios"
+  },
+  "engines": {
+    "node": ">=20.19.4"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-navigation/native": "^7.1.28",
+    "@react-navigation/stack": "^7.7.1",
+    "react": "19.2.4",
+    "react-native": "0.83.1",
+    "react-native-gesture-handler": "^2.30.0",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-screens": "^4.23.0"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "latest",
+    "@react-native/metro-config": "^0.83.1"
+  }
+}

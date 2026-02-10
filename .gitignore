@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+
+# editor/ide
+.idea/
+.vscode/
+
+# React Native
+*.keystore
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/app/.cxx/
+android/local.properties
+
+# C/C++ tooling artifacts
+**/compile_commands.json
+
+# iOS
+ios/Pods/
+ios/build/
+*.xcworkspace
+
+# temp/template folder used during scaffolding
+.rn_tmp/
+
+# misc
+*.iml
